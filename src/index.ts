@@ -43,7 +43,7 @@ wss.on("connection", (socket)=> {
             function createNewRoomId():string{
                 let newId="";
 
-                for(let i:number=0; i<3 ; i++){
+                for(let i:number=0; i<5 ; i++){
                     let digit = Math.floor(Math.random()*10);
                     newId+= digit.toString();
                 }
